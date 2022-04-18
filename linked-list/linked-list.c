@@ -239,14 +239,14 @@ int main() {
     printf("\n\t\t Insert \n");
     printf("[Before Insert] ");
     display(firstNode);
-    insert(firstNode, 0, 2);
+    insert(firstNode, 4, 2);
     printf("\n[After Insert] ");
     display(firstNode);
 
     printf("\n\n\t\t Sorted Insert\n");
     printf("[Before Sorted Insert] ");
     display(firstNode);
-    sortedInsert(firstNode, 14);
+    sortedInsert(firstNode, 25);
     printf("\n[After Sorted Insert] ");
     display(firstNode);
 
